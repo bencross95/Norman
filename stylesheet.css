@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Optima-Bold.woff';
+  font-family: 'Optima-Bold';
   src:  url('fonts/Optima-Bold.woff') format('woff');
 }
 
@@ -74,7 +74,7 @@ p {
   padding-top: 110px;
   max-width: 630px;
   margin: auto;
-  width: 50%;
+
 }
 
 a {
@@ -106,9 +106,8 @@ a:active {
 
   .main {
     padding-top: 60px;
-    max-width: 630px;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    width: 630px;
+    margin: 0 auto;
   }
 
 }
@@ -117,6 +116,12 @@ a:active {
 
 
 @media only screen and (max-width: 750px) {
+
+  .main {
+    padding-top: 60px;
+    width: 335px;
+    margin: 0 auto;
+  }
 
   .video {
     border: 4px solid #000000;
