@@ -4,7 +4,9 @@ var overlayShow = true
 
 document.getElementById("videoOverlayDesktop").onclick = function(e) {
   overlayShow = false
-  e.target.style.visibility = 'hidden';
+  // e.target.style.visibility = 'hidden';
+  document.getElementById("videoOverlayDesktop").style.visibility  = 'hidden';
+  document.getElementById("videoOverlayMobile").style.visibility  = 'hidden';
   document.getElementById("iframeID").src = iframeSRC;
 
 }
@@ -12,7 +14,8 @@ document.getElementById("videoOverlayDesktop").onclick = function(e) {
 
 document.getElementById("videoOverlayMobile").onclick = function(e) {
   overlayShow = false
-  e.target.style.visibility = 'hidden';
+  document.getElementById("videoOverlayDesktop").style.visibility  = 'hidden';
+  document.getElementById("videoOverlayMobile").style.visibility  = 'hidden';
   document.getElementById("iframeID").src = iframeSRC;
 
 }

@@ -3,6 +3,11 @@
   src:  url('fonts/Optima-Bold.woff') format('woff');
 }
 
+html {
+  /* cursor: url(images/cursor/cursor.png), auto; */
+  cursor: url(images/cursor/cursor.svg) 0 0, pointer;
+}
+
 
 body {
   background-color: #FBF9F9;
@@ -79,6 +84,7 @@ p {
 
 a {
   color: black;
+  cursor: url(images/cursor/cursor2.svg) 0 0, pointer;
 }
 
 
