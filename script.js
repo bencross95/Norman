@@ -28,3 +28,7 @@ var iframeSRC = document.getElementById("iframeID").src+"?autoplay=1";
 document.getElementById("iframeID").src = iframeSRC;
 
 console.log(iframeSRC);
+
+
+
+// if div is visible then autoplay should be in the url, and false if not
