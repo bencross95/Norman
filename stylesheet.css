@@ -52,11 +52,21 @@ p {
 }
 
 .date-table p {
-  margin: 1px;
+  margin: 0px;
+  margin-bottom: 3px;
 }
 
 .date-table {
   margin-bottom: 70px;
+}
+
+td {
+  margin: 0px;
+  padding: 0px;
+}
+
+tr {
+  padding-left: 20px;
 }
 
 
