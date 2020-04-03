@@ -46,6 +46,9 @@ p {
   font-size: 16px;
 }
 
+.liveDates {
+  margin-bottom: 70px;
+}
 
 .social-link {
   margin-bottom: 80px;
@@ -57,12 +60,12 @@ p {
 }
 
 .date-table {
-  margin-bottom: 70px;
+
 }
 
 td {
   margin: 0px;
-  padding: 0px;
+  padding-left: 6px;
 }
 
 tr {
