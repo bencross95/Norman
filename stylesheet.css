@@ -184,4 +184,8 @@ a:active {
     z-index: 0;
   }
 
+  .eventTitle {
+    padding-left: 0px;
+  }
+
 }
